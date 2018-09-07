@@ -25,4 +25,8 @@
     <preference name="appUserAgent" value="x5webview" />
     <preference name="android-minSdkVersion" value="15" />
     <allow-navigation href="*" />
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
 </widget>

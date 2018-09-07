@@ -12,6 +12,9 @@
     },
     "x5webview-cordova-plugin": {
       "PACKAGE_NAME": "com.n22.mobile"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.n22.mobile"
     }
   },
   "dependent_plugins": {}
