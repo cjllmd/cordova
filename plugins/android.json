@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.n22.mobile"
+    },
+    "x5webview-cordova-plugin": {
+      "PACKAGE_NAME": "com.n22.mobile"
     }
   },
   "dependent_plugins": {}

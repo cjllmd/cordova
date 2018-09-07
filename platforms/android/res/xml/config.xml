@@ -21,4 +21,8 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="webView" value="org.apache.cordova.x5engine.X5WebViewEngine" />
+    <preference name="appUserAgent" value="x5webview" />
+    <preference name="android-minSdkVersion" value="15" />
+    <allow-navigation href="*" />
 </widget>
