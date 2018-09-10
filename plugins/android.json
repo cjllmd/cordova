@@ -36,7 +36,14 @@
     },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.n22.mobile"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.n22.mobile"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.n22.mobile"
+    }
+  }
 }
