@@ -18,6 +18,9 @@
     },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "com.n22.mobile"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.n22.mobile"
     }
   },
   "dependent_plugins": {}
