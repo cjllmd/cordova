@@ -21,6 +21,9 @@
     },
     "cordova-plugin-geolocation": {
       "PACKAGE_NAME": "com.n22.mobile"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.n22.mobile"
     }
   },
   "dependent_plugins": {}
