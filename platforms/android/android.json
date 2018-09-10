@@ -59,6 +59,10 @@
             {
               "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -135,6 +139,9 @@
       "PACKAGE_NAME": "com.n22.mobile"
     },
     "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.n22.mobile"
+    },
+    "cordova-plugin-device": {
       "PACKAGE_NAME": "com.n22.mobile"
     }
   },
@@ -407,6 +414,14 @@
       "clobbers": [
         "Connection"
       ]
+    },
+    {
+      "id": "cordova-plugin-device.device",
+      "file": "plugins/cordova-plugin-device/www/device.js",
+      "pluginId": "cordova-plugin-device",
+      "clobbers": [
+        "device"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -418,6 +433,7 @@
     "cordova-plugin-file": "6.0.1",
     "cordova-plugin-dialogs": "2.0.1",
     "cordova-plugin-splashscreen": "5.0.2",
-    "cordova-plugin-network-information": "2.0.1"
+    "cordova-plugin-network-information": "2.0.1",
+    "cordova-plugin-device": "2.0.2"
   }
 }

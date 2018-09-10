@@ -267,6 +267,14 @@ module.exports = [
     "clobbers": [
       "Connection"
     ]
+  },
+  {
+    "id": "cordova-plugin-device.device",
+    "file": "plugins/cordova-plugin-device/www/device.js",
+    "pluginId": "cordova-plugin-device",
+    "clobbers": [
+      "device"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -280,7 +288,8 @@ module.exports.metadata =
   "cordova-plugin-file": "6.0.1",
   "cordova-plugin-dialogs": "2.0.1",
   "cordova-plugin-splashscreen": "5.0.2",
-  "cordova-plugin-network-information": "2.0.1"
+  "cordova-plugin-network-information": "2.0.1",
+  "cordova-plugin-device": "2.0.2"
 };
 // BOTTOM OF METADATA
 });
